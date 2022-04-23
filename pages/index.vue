@@ -1,5 +1,5 @@
 <template>
-  <Doughnut />
+  <Doughnut css-classes="dark-mode" />
 </template>
 
 <script>
@@ -11,9 +11,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 body, html {
   width: 100%;
   height: 100%;
+  background-color: #191919;
 }
 </style>
