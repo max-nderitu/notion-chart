@@ -1,5 +1,5 @@
 <template>
-  <DoughnutChart :chartData="chartData" :chartOptions="chartOptions" />
+  <DoughnutChart :chartData="chartData" :options="chartOptions" />
 </template>
 
 <script lang="ts">
